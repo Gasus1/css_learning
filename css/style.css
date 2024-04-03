@@ -1,11 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 22px;
+    min-height: 100vh;
+    width: 100%;
     font-family: monospace;
     line-height: 1.5;
     background: #ACC8E5;
     color: #112A46
 }
 
+h1 {
+    border: dashed 2px #112A46;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
 p {
-    color: #112a46c9
+    font-size: 1.2rem;
+    color: #112a46c9;
+    width: 40ch;
 }
