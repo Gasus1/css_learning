@@ -1,25 +1,11 @@
-* {
-    font-family: monospace;
-}
-
 body {
     font-size: 22px;
-}
-
-h1,
-h2 {
-    color: blue;
+    font-family: monospace;
+    line-height: 1.5;
+    background: #ACC8E5;
+    color: #112A46
 }
 
 p {
-    color: purple
-}
-
-.highlight {
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-.gray {
-    color: gray;
+    color: #112a46c9
 }
